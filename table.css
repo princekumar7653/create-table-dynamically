@@ -1,0 +1,132 @@
+
+body{
+    background-color: #f2f2f2;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #cccaca;
+    color: #af2114;
+    
+}
+
+#addButton {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 30px;
+    
+    
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+#popup-content {
+    background-color: #3c313117;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.error {
+    color: red;
+}
+
+#employeeForm label {
+    width: 50%;
+    margin-left: 25%;
+    color: brown;
+    margin-top: 20px;
+}
+
+#employeeForm input {
+    background-color: #bba7a775;
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    
+}
+
+
+.btton{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.btton button{
+    width: 15%;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #bba7a775;
+}
+
+#employeeForm button:hover {
+    background-color: #4CAF50;
+    color: #f2f2f2;
+}
+
+.btton #closeButton:hover{
+    background-color: #af2114;
+}
+
+.status-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#status{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    height: 30px;
+    background-color: #bba7a775;
+    border-style: none;
+    border-radius: 30px;
+    padding: 0px 10px 0px 10px;
+}
+
+.active {
+    background-color: green;
+}
+
+.inactive {
+    background-color: red;
+}
+
