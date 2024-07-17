@@ -58,12 +58,15 @@ document.addEventListener('DOMContentLoaded', function () {
         cell6.appendChild(createStatusCircle(status));
 
         const actionEdit = document.createElement('button');
-        actionEdit.textContent = 'Edit';
+        actionEdit.className = 'action-button';
+        actionEdit.innerHTML = '<i class="fas fa-edit"></i>';
         actionEdit.addEventListener('click', () => editEmployee(newRow.rowIndex - 1));
 
         const actionDelete = document.createElement('button');
-        actionDelete.textContent = 'Delete';
+        actionDelete.className = 'delete-button';
+        actionDelete.innerHTML = '<i class="fas fa-trash"></i>';
         actionDelete.addEventListener('click', () => deleteEmployee(newRow.rowIndex - 1));
+
 
         cell7.appendChild(actionEdit);
         cell7.appendChild(actionDelete);

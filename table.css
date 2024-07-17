@@ -130,3 +130,17 @@ th {
     background-color: red;
 }
 
+.action-button{
+    margin: 0 5px;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    color: rgb(51, 113, 155);
+
+}
+.delete-button{
+    border: none;
+    font-size: 20px;
+    color: #af2114;
+}
+
